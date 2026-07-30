@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.random.rand(3,4)
+arr1=np.random.rand(4,3)
+print(arr)
+print(type(arr))
+print(arr.ndim)
+print(arr.shape)
+print(arr.size)
+mult=(arr@arr1)
+print(mult)
